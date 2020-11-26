@@ -69,20 +69,21 @@ const number3 = [] // [8,3,3]
 let udin = {
   money: 1000000000,
   carPreference: {
-    type: 'jpn',
+    buildBy: 'jpn',
     needed: 2,
     rangePrice: {from: 200000000, to: 450000000},
-    mandatoryType: ['SUV', 'Hatchback']
+    type: ['SUV', 'Hatchback']
   },
   carport: [],
 }
 
 let showRoom = [
   {buildBy: 'jpn', brand: 'toyota', price: 123000000, model: 'Agya', type: 'City Car'},
-  {buildBy: 'jpn', brand: 'toyota', price: 275000000, model: 'Yaris', type: 'Hatchback'},
+  {buildBy: 'jpn', brand: 'toyota', price: 275000000, model: 'honda city', type: 'Hatchback'}, // v
+  {buildBy: 'jpn', brand: 'toyota', price: 305000000, model: 'honda city', type: 'sedan'},  
   {buildBy: 'eu', brand: 'chevrolete', price: 350000000, model: 'trax', type: 'SUV'},
   {buildBy: 'jpn', brand: 'toyota', price: 550000000, model: 'fortuner', type: 'SUV'},
-  {buildBy: 'jpn', brand: 'honda', price: 375000000, model: 'HRV', type: 'SUV'},
+  {buildBy: 'jpn', brand: 'honda', price: 375000000, model: 'HRV', type: 'SUV'}, /// v
 ]
 
 
@@ -97,27 +98,9 @@ let showRoom = [
     mandatoryType: ['SUV', 'Hatchback']
   },
   carport: [
-    Yaris,
+    honda city,
     HRV
   ],
 }
 
 */
-
-// soal 5
-class Orang {
-  constructor(money, carPreference){
-    this.money = money
-    this.carPreference = carPreference
-  }
-  
-  beliMobil(showRoom){
-  }
-}
-
-const udin = new Orang(1000000000, {
-  type: 'jpn',
-  needed: 2,
-  rangePrice: {from: 200000000, to: 450000000},
-  mandatoryType: ['SUV', 'Hatchback']
-})

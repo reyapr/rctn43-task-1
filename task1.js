@@ -3,8 +3,6 @@ var list = [[5,3,2,4,1,6], [1,2,2,3,4],[1,3,5,7,9],[1,3,5,7,9],[1,3,5,7,9],[1,3,
 
 // pakai loop
 // munculkan hasil penjumlahan dari array di dalam angka jika angka itu genap
-// kalo contoh di atas outputnya 20
-// dan di buat kedalam sebuah function//
 // function hanya menerima 1 parameter array
 
 

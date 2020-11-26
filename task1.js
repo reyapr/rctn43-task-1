@@ -66,7 +66,7 @@ const number3 = [] // [8,3,3]
 
 
 // soal 4
-let udin = {
+udin = {
   money: 1000000000,
   carPreference: {
     buildBy: 'jpn',
@@ -85,7 +85,6 @@ let showRoom = [
   {buildBy: 'jpn', brand: 'toyota', price: 550000000, model: 'fortuner', type: 'SUV'},
   {buildBy: 'jpn', brand: 'honda', price: 375000000, model: 'HRV', type: 'SUV'}, /// v
 ]
-
 
 // outputnya
 /*

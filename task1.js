@@ -7,7 +7,7 @@ var list = [[5,3,2,4,1,6], [1,2,2,3,4],[1,3,5,7,9],[1,3,5,7,9],[1,3,5,7,9],[1,3,
 
 
 // soal 2
-// no4. munculin mobil SIAPA yang paling mahal, dan MOBILNYA APA 
+// munculin mobil SIAPA yang paling mahal, dan MOBILNYA APA 
 var udin = {
   nama: "udin", 
   tinggi: 170, 
